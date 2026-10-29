@@ -26,24 +26,21 @@ No sign-up needed. On the login page, choose a demo person (all data is fictiona
 5. Open **History** on the booking to see every action recorded.
 6. Open **Profile** to see points, level and badges.
 
-Also try: request the same dates again (**Waitlisted**), request more than 3 days (blocked), and log in as **Riya** and request the 3D Printer (blocked, training required).
 
 ## Features
 - Resource listings with location, rules, max days and training requirements
 - Search and filter
 - Anyone can list and anyone can borrow (you cannot book your own item)
 - Eligibility checks (training) with clear reasons
-- Booking requests with approve, reject and waiting-list outcomes
+- Booking requests with approve, reject outcomes
 - Fair-use limits: max 2 active bookings per person and max days per resource
 - Check-out and return with before-and-after condition notes
 - Damage and overdue reporting
-- In-app notifications
 - Activity history for every important action
 - Points, levels and badges that reward on-time returns and sharing
 - Light (teal) and dark mode
 
 ## Fairness, privacy and safety
-- Waiting list instead of rejection when dates clash
 - Per-person booking limit prevents monopolising items
 - Every decision shows a plain-language reason
 - Owners always make approval and damage decisions; nothing is decided by AI alone
