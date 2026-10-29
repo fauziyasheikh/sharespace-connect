@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShareSpace — Use what exists. Share what matters.</title>
+    <meta
+      name="description"
+      content="Use what exists. Share what matters. A calm campus platform for sharing underused cameras, 3D printers, and lab rooms between students and owners."
+    />
+    <meta property="og:title" content="ShareSpace — Use what exists. Share what matters." />
+    <meta
+      property="og:description"
+      content="Use what exists. Share what matters. A calm campus platform for sharing underused cameras, 3D printers, and lab rooms between students and owners."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('sharespace-theme');
+          var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          if (saved === 'dark' || (!saved && prefersDark)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#F7FBFA] text-[#0F2A2E] dark:bg-[#0B1415] dark:text-[#E6F4F2] antialiased selection:bg-[#CCFBF1] selection:text-[#0F2A2E] dark:selection:bg-[#2DD4BF]/25 dark:selection:text-[#E6F4F2]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

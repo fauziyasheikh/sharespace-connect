@@ -1,0 +1,8 @@
+{
+  "name": "ShareSpace",
+  "description": "A minimalist platform for college students to easily share and borrow underused campus equipment and specialized lab spaces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
